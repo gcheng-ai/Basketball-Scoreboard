@@ -1,0 +1,52 @@
+body {
+    /* margin: 0; */
+    background: #1B244A;
+    
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@font-face{
+    src:url("CursedTimerUlil-Aznm.ttf");
+    font-family: cursed;
+}
+
+h1{
+    background: black;
+    color: red;
+    text-align: center;
+    font-family: cursed;
+}
+
+h2{
+    color: orange;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+button{
+    font-family: cursed;
+    border: 1px solid #9AABD8;
+    background: #1B244A;
+    color: #9AABD8;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px
+}
+
+#newGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: yellow;  
+}
